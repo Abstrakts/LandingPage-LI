@@ -1,0 +1,26 @@
+body{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/**
+* FONTS
+**/
+
+@font-face {
+  font-family: 'NantesWeb';
+  src: url('../assets/fonts/NantesWeb-Bold.woff');
+}
+@font-face {
+  font-family: 'Campton-Book';
+  src: url('../assets/fonts/Campton-Book.ttf');
+}
+
+$titles: 'NantesWeb';
+$text: 'Campton-Book';
+
+/**
+* COLORS
+**/
+
+$white: #fff;
+$oBlack: rgba(0, 0, 0, 0.6);
